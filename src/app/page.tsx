@@ -3,35 +3,27 @@ import { authors } from "@authors";
 
 export default function Home() {
   return (
-    <>
-      <header className="w-full h-16 bg-base-300">
-        <h1 className="text-3xl font-bold underline">Romantismo Feminino Brasileiro</h1>
-      </header>
-      <main className="w-1/2 mx-auto h-full">
-        {/* introdução */}
+      <main className="lg:w-1/2 md:w-3/4 px-6 mx-auto min-h-[80vh]">
 
-        <h1 className="text-3xl font-bold my-4">Um espaço para obras femininas</h1>
-
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          Exercitationem, ipsum animi. Veniam incidunt laboriosam ipsam dicta,
-          voluptates laudantium corrupti tempora praesentium eius nam
-          consequatur quo tenetur unde eveniet totam numquam.
-        </p>
-
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
-          obcaecati consequatur ratione culpa enim aspernatur consequuntur
-          recusandae delectus architecto, numquam amet assumenda eos aut aliquam
-          nam repellat praesentium unde alias?
-        </p>
-
-        {/* autoras */}
-        <h1>Coletânea de obras românticas</h1>
-        <h1 className="text-3xl font-bold">
-          Autoras Românticas Brasileiras
+        <h1 className="xl:text-4xl md:text-3xl text-2xl font-bold mb-4">
+          Um espaço para obras femininas
         </h1>
-        <div className="">
+
+        <p className="comum-paragraph mb-4">
+          Site criados pelos alunos de ensino médio da escola EEEP Paula
+          Petrola, visando aumentar o alcance dos resultados do nosso trabalho
+          da IV Feira de Ciências.
+        </p>
+
+        <p className="comum-paragraph">
+          Por conta da escassez de informações sobre as escritoras de período
+          romântico, tivemos a ideia de criar uma plataforma para divulgar os
+          conteúdos dessas escritoras. Não podemos se esquecer das incríveis
+          escritoras brasileiras.
+        </p>
+
+        <h1 className="xl:text-4xl lg:text-3xl md:text-2xl text-xl font-bold mb-12">Autoras Românticas Brasileiras</h1>
+        <div className="flex flex-col gap-4 mt-4">
           {authors.map((author) => (
             <AuthorCard
               key={author.name}
@@ -43,7 +35,5 @@ export default function Home() {
           ))}
         </div>
       </main>
-      <footer className="w-full h-16 mt-4 bg-base-300">Fortaleza-CE, 2024</footer>
-    </>
   );
 }

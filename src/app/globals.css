@@ -23,3 +23,43 @@ body {
     text-wrap: balance;
   }
 }
+
+.text-quote {
+  @apply text-xl sm:text-xl md:text-2xl mt-6 flex flex-col gap-4 w-2/3 mx-auto italic;
+}
+
+.author-name {
+  @apply md:text-4xl text-3xl mb-4 font-bold md:text-left text-center;
+}
+
+.comum-paragraph {
+  @apply text-xl md:text-2xl indent-4;
+}
+
+.literature-name {
+  @apply text-2xl font-bold md:text-4xl mt-8 mb-4;
+}
+
+.literature-title {
+  @apply md:text-4xl text-3xl font-bold mt-6 mb-12;
+}
+
+.literature-list {
+  @apply md:text-3xl text-2xl mt-8 ml-8 flex flex-col gap-3 font-semibold text-slate-700;
+}
+
+.literature-link {
+  @apply hover:text-slate-500 hover:underline;
+}
+
+.image-container {
+  @apply relative mx-auto mb-6;
+}
+
+.image {
+  @apply mb-6 mx-auto block shadow-2xl rounded-lg;
+}
+
+.main {
+  @apply md:w-3/4 px-6 mx-auto min-h-[80vh];
+}

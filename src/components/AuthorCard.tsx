@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+
 interface AuthorCardProps {
   name: string;
   image: string;
@@ -12,15 +15,17 @@ const AuthorCard = ({
   authorHref,
 }: AuthorCardProps) => {
   return (
-    <div className="bg-base-100 shadow-xl px-4 py-2 flex">
-      <div>
-        <img src={image} alt={name} />
+    <Link href={authorHref}>
+      <div className="bg-base-100 shadow-xl flex rounded-lg overflow-hidden hover:scale-105 transition-transform">
+        <div>
+          <Image src={image} alt={name} width={200} height={200} />
+        </div>
+        <div className="w-full pl-4 py-4 flex flex-col justify-between">
+          <h2 className="font-bold lg:text-2xl md:text-xl text-lg">{name}</h2>
+          <p>{description}</p>
+        </div>
       </div>
-      <div className="w-full p-0 pl-4 pt-4">
-        <h2 className="text-2xl">{name}</h2>
-        <p>{description}</p>
-      </div>
-    </div>
+    </Link>
   );
 };
 
