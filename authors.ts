@@ -117,7 +117,7 @@ const emiliaFreitas: Author = {
 };
 
 const autaSouza: Author = {
-  name: "Auta Souza",
+  name: "Auta de Souza",
   imageUrl: "/auta-souza.jpeg",
   description:
     "Auta de Souza vive 25 anos, de 1876 a 1901 – nasce em Macaíba, Rio Grande do Norte, em 12 de setembro e morre em 7 de fevereiro. Poetisa de segunda geração romântica, é autora de Horto, de 1900, que a tornou a primeira poeta negra da literatura brasileira, ombreando em pioneirismo com a romancista maranhense Maria Firmina.",
@@ -279,7 +279,7 @@ const anaLuisa: Author = {
 };
 
 const narcisaAmalia: Author = {
-  name: "Narcisa Amalia",
+  name: "Narcisa Amália",
   imageUrl: "/narcisa-amalia.jpeg",
   description: `
   Narcisa Amália de Campos nasceu em 3 de abril de 1852 em São João da Barra, norte do

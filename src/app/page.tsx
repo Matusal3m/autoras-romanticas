@@ -22,7 +22,7 @@ export default function Home() {
           escritoras brasileiras.
         </p>
 
-        <h1 className="xl:text-4xl lg:text-3xl md:text-2xl text-xl font-bold mb-12">Autoras Românticas Brasileiras</h1>
+        <h1 className="xl:text-4xl lg:text-3xl md:text-2xl text-xl font-bold mb-12 mt-8">Autoras Românticas Brasileiras</h1>
         <div className="flex flex-col gap-4 mt-4">
           {authors.map((author) => (
             <AuthorCard
