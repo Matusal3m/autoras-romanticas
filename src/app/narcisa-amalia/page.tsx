@@ -6,13 +6,13 @@ const NarcisaAmaliaPage = () => {
       <figure className="image-container w-[200px] h-[257px]">
         <Image
           src={"/narcisa-amalia.jpeg"}
-          alt="Narcisa Amalia"
+          alt="Narcisa Amália"
           height={200}
           width={200}
           className="image"
         />
       </figure>
-      <h1 className="author-name">Narcisa Amalia</h1>
+      <h1 className="author-name">Narcisa Amália</h1>
       <p className="comum-paragraph">
         Narcisa Amália de Campos nasceu em 3 de abril de 1852 em São João da
         Barra, norte do Rio de Janeiro, filha do poeta Jácome de Campos e da

@@ -11,7 +11,7 @@ const AnaLuisaPage = () => {
           className="image"
         />
       </figure>
-      <h1 className="author-name">Ana Luisa de Azevedo Castro</h1>
+      <h1 className="author-name">Ana Luísa de Azevedo Castro</h1>
       <p className="comum-paragraph">
         Ana Luísa de Azevedo Castro, nasceu em São Francisco do Sul, 1823, no
         Rio de Janeiro, 1869 foi uma escritora e educadora brasileira,

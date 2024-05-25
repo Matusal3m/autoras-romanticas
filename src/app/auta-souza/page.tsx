@@ -11,7 +11,7 @@ const AutaSouzaPage = () => {
           className="image"
         />
       </figure>
-      <h1 className="author-name">Auta Souza</h1>
+      <h1 className="author-name">Auta de Souza</h1>
       <p className="comum-paragraph">
         Auta de Souza vive 25 anos, de 1876 a 1901 – nasce em Macaíba, Rio
         Grande do Norte, em 12 de setembro e morre em 7 de fevereiro. Poetisa de
