@@ -90,7 +90,7 @@ const mariaFirmina: Author = {
 
 const emiliaFreitas: Author = {
   name: "Emilia Freitas",
-  imageUrl: "/emilia-freitas.png",
+  imageUrl: "/emilia-freitas.jpg",
   description:
     "Emília Freitas nasceu em 11 de janeiro de 1855, em Vila União, distrito de Aracati, no Ceará. Crescendo em um ambiente letrado, a filha do tenente-coronel Antônio José de Freitas — um abolicionista, liberal e republicano — e de Maria de Jesus — muito cuidadosa com os filhos e escravos, ensinado muitos destes a ler e escrever — teve influências que se tornariam perceptíveis em sua produção intelectual nos anos seguintes.",
   authorHref: "./emilia-freitas",
@@ -108,7 +108,7 @@ const emiliaFreitas: Author = {
       ],
     },
     {
-      title: "A Rainha do Ignoo - Tradução",
+      title: "A Rainha do Ignoto - Tradução",
       content: [
         "Você ao menos se lembra dos nossos transportes ardentes, quando eu te disse: te amo... ",
         "eu tinha quinze anos então.",

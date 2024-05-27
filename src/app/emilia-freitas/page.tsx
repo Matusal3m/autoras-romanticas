@@ -3,9 +3,9 @@ import Image from "next/image";
 const EmiliaFreitasPage = () => {
   return (
     <main className="main">
-      <figure className="image-container w-[200px] h-[197px]">
+      <figure className="image-container w-[200px] h-[266px]">
         <Image
-          src={"/emilia-freitas.png"}
+          src={"/emilia-freitas.jpg"}
           alt="Emilia Freitas"
           fill
           className="image"
