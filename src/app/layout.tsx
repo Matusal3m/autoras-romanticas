@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html data-theme="light" lang="pt">
-      <body className={`bg-cover bg-center min-h-screen w-screen`} 
+      <body className={`min-h-screen`} 
       >
         <Header />
         {children}
