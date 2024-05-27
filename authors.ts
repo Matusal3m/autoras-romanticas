@@ -107,6 +107,18 @@ const emiliaFreitas: Author = {
         "Ma bouche em vain répète de regrets superflus! Les temps que je regret C'est le temps que n'est plus.",
       ],
     },
+    {
+      title: "A Rainha do Ignoo - Tradução",
+      content: [
+        "Você ao menos se lembra dos nossos transportes ardentes, quando eu te disse: te amo... ",
+        "eu tinha quinze anos então.",
+        "O som desta festa volta ao meu coração. A hora que me arrependo. É a hora da felicidade.",
+        "No presente suspiro... Meus olhos estão baixos, Até se lembram de você dos nossos transportes ardentes, quando eu te digo: te amo, eu tinha quinze anos então.",
+        "O som desta festa volta ao meu coração. A hora que me arrependo. É a hora da felicidade.",
+        "No presente suspiro... Meus olhos estão baixos, Tiveram medo de me dizer que meus dias bons já passaram.",
+        "Minha boca vaidosa repete arrependimentos supérfluos! Os tempos dos quais me arrependo Estes são os tempos que não existem mais.",
+      ]
+    }
   ],
   links: [
     {
