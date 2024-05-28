@@ -21,7 +21,23 @@ const AnaLuisaPage = () => {
 
       <h2 className="literature-name">D. Narcisa de Villar</h2>
 
-      <p className="comum-paragraph"></p>
+      <p className="comum-paragraph">
+        D. Narcisa de Villar, a primeira e única história de ficção da
+        catarinense Ana Luísa de Azevedo Castro (1826 ou 1827-1869), foi a
+        primeira novela de autoria de mulher brasileira.
+      </p>
+
+      <p className="comum-paragraph">
+        Publicada em folhetins no jornal A Marmota, de 13 de abril a 6 de julho
+        de 1858, D. Narcisa de Villar teve seu lançamento em livro no ano
+        seguinte (1859).
+      </p>
+
+      <p className="comum-paragraph">
+        O enredo, ambientado em Ponta Grossa e na ilha do Mel (Santa Catarina),
+        centra-se no amor proibido de Narcisa por Leonardo, seu amigo indígena
+        de adolescência.
+      </p>
 
       <div className="text-quote">
         <p>

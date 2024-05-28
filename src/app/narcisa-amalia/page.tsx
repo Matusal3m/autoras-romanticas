@@ -13,6 +13,7 @@ const NarcisaAmaliaPage = () => {
         />
       </figure>
       <h1 className="author-name">Narcisa Amália</h1>
+
       <p className="comum-paragraph">
         Narcisa Amália de Campos nasceu em 3 de abril de 1852 em São João da
         Barra, norte do Rio de Janeiro, filha do poeta Jácome de Campos e da
@@ -23,11 +24,24 @@ const NarcisaAmaliaPage = () => {
         republicanos, abolicionistas, feministas e democratas, temas esses que
         também abordava em suas obras.
       </p>
-      <h1 className="literature-title">Trechos de obras</h1>
+
+      <h1 className="literature-title">A Nebulosa</h1>
+
+      <p className="comum-paragraph">
+        Destemida, intelectualmente vigorosa e profundamente compassiva em
+        relação às questões humanas e femininas, Narcisa Amália deixou uma marca
+        indelével com sua obra singular, “Nebulosas”.
+      </p>
+      <p className="comum-paragraph">
+        Publicado em 1872 pela renomada editora Garnier, este livro não apenas
+        provocou uma celebração unânime de seu talento, mas também conquistou o
+        reconhecimento de figuras proeminentes da época, incluindo Machado de
+        Assis e o imperador D. Pedro II.
+      </p>
+
+      <h1 className="literature-title">Trechos de Nebulosa</h1>
 
       <h2 className="literature-name">Fantasia</h2>
-
-      <p className="comum-paragraph"></p>
 
       <div className="text-quote">
         <p>
@@ -68,10 +82,7 @@ const NarcisaAmaliaPage = () => {
           de tua vida, De tantos sonhos-tecida Quantos o céu me negou!
         </p>
       </div>
-
       <h2 className="literature-name">Julia e Augusta</h2>
-
-      <p className="comum-paragraph"> </p>
 
       <div className="text-quote">
         <p>
@@ -120,9 +131,7 @@ const NarcisaAmaliaPage = () => {
           seus olhos brilha.
         </p>
       </div>
-
       <h1 className="literature-title">Links para obras</h1>
-
       <ul className="literature-list">
         <li className="literature-link">
           <a href="https://www.academia.edu/54386190/Nebulosas_de_Narcisa_Am%C3%A1lia">

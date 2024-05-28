@@ -6,12 +6,12 @@ const EmiliaFreitasPage = () => {
       <figure className="image-container w-[200px] h-[266px]">
         <Image
           src={"/emilia-freitas.jpg"}
-          alt="Emilia Freitas"
+          alt="Emília Freitas"
           fill
           className="image"
         />
       </figure>
-      <h1 className="author-name">Emilia Freitas</h1>
+      <h1 className="author-name">Emília Freitas</h1>
       <p className="comum-paragraph">
         Emília Freitas nasceu em 11 de janeiro de 1855, em Vila União, distrito
         de Aracati, no Ceará. Crescendo em um ambiente letrado, a filha do
@@ -25,7 +25,16 @@ const EmiliaFreitasPage = () => {
 
       <h2 className="literature-name">A rainha do Ignoto</h2>
 
-      <p className="comum-paragraph"></p>
+      <p className="comum-paragraph">
+        O primeiro romance fantástico nacional e escrito por uma mulher.A Rainha
+        do Ignoto (1899), discorrendo sobre temas relacionados à alma feminina e
+        sua situação na sociedade patriarcal, revela uma sociedade secreta de
+        mulheres, hierarquicamente organizada em uma ilha, denominada Ilha do
+        Nevoeiro, governada por uma Rainha que recrutava mulheres a partir do
+        sofrimento vivenciado por elas no cotidiano. A Rainha do Ignoto é uma
+        curiosa narrativa que, lembrando velhas lendas, recria num clima de
+        mistério a beleza dos contos europeus.
+      </p>
 
       <div className="text-quote text-center">
         <p>
@@ -55,7 +64,9 @@ const EmiliaFreitasPage = () => {
         </p>
       </div>
 
-      <p className="comum-paragraph font-black text-center my-6">Trecho traduzido</p>
+      <p className="comum-paragraph font-black text-center my-6">
+        Trecho traduzido
+      </p>
 
       <div className="text-quote text-center">
         <p>

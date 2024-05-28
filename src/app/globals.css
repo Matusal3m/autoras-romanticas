@@ -33,7 +33,7 @@ body {
 }
 
 .comum-paragraph {
-  @apply text-xl md:text-2xl indent-4;
+  @apply text-xl md:text-2xl indent-4 pl-4;
 }
 
 .literature-name {
