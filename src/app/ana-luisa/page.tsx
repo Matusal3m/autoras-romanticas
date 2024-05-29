@@ -3,9 +3,9 @@ import Image from "next/image";
 const AnaLuisaPage = () => {
   return (
     <main className="main">
-      <figure className="image-container w-[200px] h-[309px]">
+      <figure className="image-container w-[200px] h-[266px]">
         <Image
-          src={"/narcisa-villar.jpg"}
+          src={"mulher-secXIX.svg"}
           alt="Ana Luisa de Azevedo Castro"
           fill
           className="image"

@@ -5,7 +5,7 @@ const EmiliaFreitasPage = () => {
     <main className="main">
       <figure className="image-container w-[200px] h-[266px]">
         <Image
-          src={"/emilia-freitas.jpg"}
+          src={"mulher-secXIX.svg"}
           alt="Emília Freitas"
           fill
           className="image"

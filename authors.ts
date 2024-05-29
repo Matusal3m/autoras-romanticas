@@ -90,7 +90,7 @@ const mariaFirmina: Author = {
 
 const emiliaFreitas: Author = {
   name: "Emilia Freitas",
-  imageUrl: "/emilia-freitas.jpg",
+  imageUrl: "mulher-secXIX.svg",
   description:
     "Emília Freitas nasceu em 11 de janeiro de 1855, em Vila União, distrito de Aracati, no Ceará. Crescendo em um ambiente letrado, a filha do tenente-coronel Antônio José de Freitas — um abolicionista, liberal e republicano — e de Maria de Jesus — muito cuidadosa com os filhos e escravos, ensinado muitos destes a ler e escrever — teve influências que se tornariam perceptíveis em sua produção intelectual nos anos seguintes.",
   authorHref: "./emilia-freitas",
@@ -261,7 +261,7 @@ const autaSouza: Author = {
 
 const anaLuisa: Author = {
   name: "Ana Luisa de Azevedo Castro",
-  imageUrl: "/narcisa-villar.jpg",
+  imageUrl: "mulher-secXIX.svg",
   description:
     "Ana Luísa de Azevedo Castro (São Francisco do Sul, 1823 – Rio de Janeiro, 1869) foi uma escritora e educadora brasileira, considerada a primeira autora de um romance de Santa Catarina.",
   cardDescription: "Primeira escritora de Santa Catarina",
